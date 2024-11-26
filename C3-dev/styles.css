@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.5s ease;
+}
+
+#game-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#color-input {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+#feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#restart-container {
+    display: none;
+}
+
+button {
+    margin: 5px;
+    padding: 5px 10px;
+}
